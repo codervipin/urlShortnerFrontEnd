@@ -104,6 +104,38 @@ body{
 }
 
 
+.loginContainer{
+  width: 500px;
+  height: fit-content;
+  margin: 3% auto;
+  border-radius: 10px;
+  padding: 2%;
+  border: solid;
+  background-color: #fff;
+}
+
+.loginContainer h1{
+  text-align: center;
+  width: 100%;
+ 
+}
+
+.activity{
+  margin: 4% auto;
+  width: 900px;
+  min-width: 400px;
+  height: fit-content;
+  background-color: #fff;
+  color: black;
+  padding: 1.2%;
+}
+.activity h2{
+  text-align: center;
+}
+
+
+
+
 
 
 

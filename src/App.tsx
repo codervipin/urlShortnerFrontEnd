@@ -1,13 +1,18 @@
+import { RouterProvider } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import route from './routes/routes'
 import Header from './components/Header'
-import UrlForm from './components/UrlForm'
+import { Toaster } from 'react-hot-toast'
 
 const App = ()=> {
 
   return (
     <>
-      <Header/>
-      <UrlForm/>
+    <Header/>
+    <RouterProvider router={route}>
+    </RouterProvider>  
+    <Toaster/>
     </>
   )
 }
